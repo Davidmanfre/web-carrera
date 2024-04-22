@@ -315,3 +315,30 @@ footer{
     background: #ea1538;
     transform: scale(1.1);
 }
+
+/*CV */
+.pdf-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 2rem;
+}
+
+.pdf-container embed {
+    width: 80%;
+    height: 80vh;
+    border: 1px solid #ccc;
+}
+
+/*Carrusel*/
+.carousel-indicators img{
+    width: 70px;
+    display: block;
+}
+.carousel-indicators button{
+    width: max-content!important;
+}
+.carousel-indicators{
+    position: unset;
+}
