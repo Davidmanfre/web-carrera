@@ -342,3 +342,13 @@ footer{
 .carousel-indicators{
     position: unset;
 }
+
+/*colores texto*/
+.blanco{
+    color: white;
+}
+
+/*Border publis*/
+.cartas {
+    border: solid #ea1538;
+}
