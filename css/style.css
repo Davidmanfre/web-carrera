@@ -352,3 +352,34 @@ footer{
 .cartas {
     border: solid #ea1538;
 }
+/*COVER FEDERAL*/
+.cover-section {
+    height: 30vh;
+}
+
+.cover-image {
+    background-image: url('../resourses/Carousel/redappe.jpeg');
+    background-size: cover;
+    background-position: 40% 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-content {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(53, 52, 52, 0.8);
+    border: 2px solid #ea1538;
+    -webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px;
+}
+
+.cover-title {
+    color: #ea1538;
+}
+.cover-text{
+    color: white;
+}
